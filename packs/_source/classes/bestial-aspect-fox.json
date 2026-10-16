@@ -1,0 +1,22 @@
+{
+  "_id": "QlEW2NZZSDUY8rJu",
+  "_key": "!items!QlEW2NZZSDUY8rJu",
+  "name": "Bestial Aspect - Fox",
+  "type": "feat",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "zfqMjB6gDL6D9Uc3",
+  "sort": 30,
+  "system": {
+    "description": {
+      "value": "<p>While transformed, your keen hearing and smell give you Advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "chat": ""
+    },
+    "identifier": "bestial-aspect-fox",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "source": {}
+  },
+  "flags": {}
+}

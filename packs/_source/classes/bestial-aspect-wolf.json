@@ -1,0 +1,22 @@
+{
+  "_id": "TU4Cm0cpL67wZwFK",
+  "_key": "!items!TU4Cm0cpL67wZwFK",
+  "name": "Bestial Aspect - Wolf",
+  "type": "feat",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "ayEPP4ZC8KSgqmbF",
+  "sort": 30,
+  "system": {
+    "description": {
+      "value": "<p>While transformed, your keen hearing and smell give you Advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+      "chat": ""
+    },
+    "identifier": "bestial-aspect-wolf",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "source": {}
+  },
+  "flags": {}
+}

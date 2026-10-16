@@ -1,0 +1,3 @@
+[submodule "vendor/advancement-classes"]
+	path = vendor/advancement-classes
+	url = https://github.com/WilliamCrewe/dnd5e-advancement-class.git

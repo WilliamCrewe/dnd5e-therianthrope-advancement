@@ -1,0 +1,84 @@
+{
+  "id": "advancement-therianthrope",
+  "title": "Therianthrope Advancement",
+  "description": "Therianthrope advancement class content for the Advancement Classes module: a 10-stage werebeast curse with branches, callings, gifts, and transformation forms.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Will Crewe"
+    }
+  ],
+  "url": "https://github.com/WilliamCrewe/dnd5e-therianthrope-advancement",
+  "manifest": "https://github.com/WilliamCrewe/dnd5e-therianthrope-advancement/releases/latest/download/module.json",
+  "download": "https://github.com/WilliamCrewe/dnd5e-therianthrope-advancement/releases/latest/download/module.zip",
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "type": "Item",
+      "path": "packs/classes",
+      "flags": {
+        "dnd5e": {
+          "sourceBook": "Therianthrope",
+          "types": [
+            "advancement-classes.advancement-class",
+            "advancement-classes.advancement-path",
+            "advancement-classes.advancement-milestone",
+            "feat"
+          ]
+        }
+      }
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "type": "Actor",
+      "path": "packs/actors"
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "type": "JournalEntry",
+      "path": "packs/journals"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Advancement Class",
+      "color": "#4a2c6e",
+      "sorting": "a",
+      "folders": [
+        {
+          "name": "Therianthrope",
+          "sorting": "m",
+          "packs": ["classes", "actors", "journals"]
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.5"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "advancement-classes",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.0.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368"
+  }
+}

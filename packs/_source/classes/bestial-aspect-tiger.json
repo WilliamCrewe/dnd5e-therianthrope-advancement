@@ -1,0 +1,22 @@
+{
+  "_id": "3rMGVnAhaArREhix",
+  "_key": "!items!3rMGVnAhaArREhix",
+  "name": "Bestial Aspect - Tiger",
+  "type": "feat",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "folder": "rBFOCZJETVGPeDw0",
+  "sort": 30,
+  "system": {
+    "description": {
+      "value": "<p>While transformed, your keen smell gives you Advantage on Wisdom (Perception) checks that rely on smell and on Dexterity (Stealth) checks made in natural terrain.</p>",
+      "chat": ""
+    },
+    "identifier": "bestial-aspect-tiger",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "source": {}
+  },
+  "flags": {}
+}

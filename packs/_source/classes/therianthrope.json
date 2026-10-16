@@ -1,0 +1,516 @@
+{
+  "_id": "YdhHVJCtvpxopGeT",
+  "_key": "!items!YdhHVJCtvpxopGeT",
+  "name": "Therianthrope",
+  "type": "advancement-classes.advancement-class",
+  "img": "systems/dnd5e/icons/svg/items/class.svg",
+  "folder": "Wm5KlcBrCO8shUiN",
+  "sort": -10,
+  "system": {
+    "description": {
+      "value": "<p>A Therianthrope is a creature cursed to transform into beast and hybrid forms - a werecreature whose condition spreads through its bite during the light of the Planar Tear. Therianthrope Stages are tracked independently of class level and do not increase character level or proficiency bonus.</p><p>See the @UUID[Compendium.advancement-therianthrope.journals.JournalEntry.On3AKlmYmTXKaq8h]{Therianthrope} journal for the full class write-up.</p>",
+      "chat": ""
+    },
+    "identifier": "therianthrope",
+    "levels": 1,
+    "hd": {
+      "additional": "0",
+      "denomination": "d6",
+      "spent": 0
+    },
+    "stageNames": {
+      "1": "Afflicted",
+      "2": "Savage",
+      "3": "Feral",
+      "4": "Primal",
+      "5": "Adapted",
+      "6": "Awakened",
+      "7": "Packborn",
+      "8": "Alpha",
+      "9": "Dire",
+      "10": "Apex"
+    },
+    "gifts": {
+      "tiers": {
+        "minor": {
+          "label": "Minor",
+          "sort": 0,
+          "requires": {}
+        },
+        "major": {
+          "label": "Major",
+          "sort": 1,
+          "requires": {}
+        },
+        "grand": {
+          "label": "Grand",
+          "sort": 2,
+          "requires": {
+            "minor": 2,
+            "major": 2
+          }
+        }
+      }
+    },
+    "journal": "Compendium.advancement-therianthrope.journals.JournalEntry.On3AKlmYmTXKaq8h.JournalEntryPage.Zq5WfCQqrI2bbqAg",
+    "advancement": {
+      "PoTrEsiqtfWkkxwP": {
+        "_id": "PoTrEsiqtfWkkxwP",
+        "type": "ItemGrant",
+        "level": 1,
+        "title": "Stage 1 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.1gsHLBlIv5s1LjTl"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.OiDSwprtVBHIMzHi"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.LFQs8FqHARA6k9DH"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "nCAwfPLOUcltWjdo": {
+        "_id": "nCAwfPLOUcltWjdo",
+        "type": "ItemChoice",
+        "level": 1,
+        "title": "Bestial Flaw",
+        "hint": "Choose a Bestial Flaw - a roleplaying compulsion the curse imposes on you.",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "1": {
+              "count": 1
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.pNplPH8Kr3eGwoOO"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.cNye5FGLPy2yqpm7"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.qvg5AjoZNy6zUnUQ"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.K21c9zZhcTHS3H6Z"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.hHEYBrFtjQlyWWWR"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.Gc9QSJ4lNAREEV8q"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.L1fBE2n2bJOq49CX"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.FB6IOmmsQE1GIj6Z"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.n1nxlOGFKOSIHvSz"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.QYEJu3A51FGu22vk"
+            }
+          ],
+          "restriction": {
+            "type": "feat"
+          },
+          "type": "feat",
+          "sorting": "a"
+        },
+        "value": {}
+      },
+      "gXyT6Qp9SWMhGhTX": {
+        "_id": "gXyT6Qp9SWMhGhTX",
+        "type": "AdvancementPath",
+        "level": 1,
+        "title": "Therianthrope Branch",
+        "hint": "Choose the animalistic branch of your curse, determined by the Therianthrope that infected you.",
+        "configuration": {},
+        "value": {}
+      },
+      "WGtWkmYw49fCoHlD": {
+        "_id": "WGtWkmYw49fCoHlD",
+        "type": "ItemGrant",
+        "level": 2,
+        "title": "Stage 2 Features",
+        "hint": "Features granted by this Stage of the Therianthrope advancement class.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.Zn9Bp5xsyFmSYj8d"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "gy0gixd9wqlAZA3q": {
+        "_id": "gy0gixd9wqlAZA3q",
+        "type": "ItemGrant",
+        "level": 2,
+        "title": "Stage 2 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.a8zDBKxkXpeus65C"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.SDHM28YaxurA4xKr"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "AWtWtY3Ez8T2FHSg": {
+        "_id": "AWtWtY3Ez8T2FHSg",
+        "type": "ItemGrant",
+        "level": 2,
+        "title": "Stage 2 Callings",
+        "hint": "Choose a Calling - Control or Embrace - and complete its milestone to claim a gift. The path not taken is lost. Grand gifts are offered only to those holding at least two Minor and two Major gifts of the same side.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.EfTdGl4r9WGDBaB5"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.IhUdibEjAgOxB6nH"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "HCxCRj5KjCQ1Fzs0": {
+        "_id": "HCxCRj5KjCQ1Fzs0",
+        "type": "ItemGrant",
+        "level": 3,
+        "title": "Stage 3 Features",
+        "hint": "Features granted by this Stage of the Therianthrope advancement class.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.NriK4aNd6Yh6IWd9"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "QAHsC2owqveVflGW": {
+        "_id": "QAHsC2owqveVflGW",
+        "type": "ItemGrant",
+        "level": 3,
+        "title": "Stage 3 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.OREC8O2WHzIqN22A"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "eU5YJIZY6mazQzBu": {
+        "_id": "eU5YJIZY6mazQzBu",
+        "type": "ItemGrant",
+        "level": 4,
+        "title": "Stage 4 Features",
+        "hint": "Features granted by this Stage of the Therianthrope advancement class.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.JNrVBy5ggAjWcM4A"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.NAAZCgBsp6FnlSlN"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "5SPs02LgyAAUKWLJ": {
+        "_id": "5SPs02LgyAAUKWLJ",
+        "type": "ItemGrant",
+        "level": 4,
+        "title": "Stage 4 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.EWNgkFtUAoFV7izJ"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.mlXveAdRCkfJfIDh"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "D10PHmEo8Jvdzahh": {
+        "_id": "D10PHmEo8Jvdzahh",
+        "type": "ItemGrant",
+        "level": 4,
+        "title": "Stage 4 Callings",
+        "hint": "Choose a Calling - Control or Embrace - and complete its milestone to claim a gift. The path not taken is lost. Grand gifts are offered only to those holding at least two Minor and two Major gifts of the same side.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.DefzhVi8jpX9fb7C"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.rNzSu3yLcGBFPdR1"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "va05PpEOLE2nAGgQ": {
+        "_id": "va05PpEOLE2nAGgQ",
+        "type": "ItemGrant",
+        "level": 5,
+        "title": "Stage 5 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.94z6zb70hNwOWmg3"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "eg04q3Pnv6O7bd8G": {
+        "_id": "eg04q3Pnv6O7bd8G",
+        "type": "ItemGrant",
+        "level": 6,
+        "title": "Stage 6 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.UF9L99sgWRKVJ8g6"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.jekuxkuZ6VE7bCke"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "AemEH0qx6R3FUjmx": {
+        "_id": "AemEH0qx6R3FUjmx",
+        "type": "ItemGrant",
+        "level": 6,
+        "title": "Stage 6 Callings",
+        "hint": "Choose a Calling - Control or Embrace - and complete its milestone to claim a gift. The path not taken is lost. Grand gifts are offered only to those holding at least two Minor and two Major gifts of the same side.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.xbbXCkPvuKVVSP0H"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.6pr85qu1B5KoywA4"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "1PE6lo2ySaZB29S5": {
+        "_id": "1PE6lo2ySaZB29S5",
+        "type": "ItemGrant",
+        "level": 7,
+        "title": "Stage 7 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.8TebQhSaFJ5DTqel"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "GghfDUEqPwB2Gf6E": {
+        "_id": "GghfDUEqPwB2Gf6E",
+        "type": "ItemGrant",
+        "level": 8,
+        "title": "Stage 8 Features",
+        "hint": "Features granted by this Stage of the Therianthrope advancement class.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.hAw9uJ52641C35yY"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "rkj6ePPSdL6BW1N3": {
+        "_id": "rkj6ePPSdL6BW1N3",
+        "type": "ItemGrant",
+        "level": 8,
+        "title": "Stage 8 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.k0dBSPm554qNtCni"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.yyoelnt3K9NqBz2e"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "CNDJER21xAyQPuXy": {
+        "_id": "CNDJER21xAyQPuXy",
+        "type": "ItemGrant",
+        "level": 8,
+        "title": "Stage 8 Callings",
+        "hint": "Choose a Calling - Control or Embrace - and complete its milestone to claim a gift. The path not taken is lost. Grand gifts are offered only to those holding at least two Minor and two Major gifts of the same side.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.0QGEfhJpPA84xnc6"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.cMiJ0bTt9g2I3BES"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "mWHIhVzhf1jZGMHp": {
+        "_id": "mWHIhVzhf1jZGMHp",
+        "type": "ItemGrant",
+        "level": 9,
+        "title": "Stage 9 Milestones",
+        "hint": "Advancement Milestones are goals you must complete before you can advance to the next Stage.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.8Td7S8QQUehTHu10"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "7jDS0K28iHhECLV9": {
+        "_id": "7jDS0K28iHhECLV9",
+        "type": "ItemGrant",
+        "level": 10,
+        "title": "Stage 10 Callings",
+        "hint": "Choose a Calling - Control or Embrace - and complete its milestone to claim a gift. The path not taken is lost. Grand gifts are offered only to those holding at least two Minor and two Major gifts of the same side.",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.JHwhRqI4H37riOPC"
+            },
+            {
+              "uuid": "Compendium.advancement-therianthrope.classes.Item.AAGoyhzotAFWcKhK"
+            }
+          ],
+          "optional": false
+        },
+        "value": {}
+      },
+      "jueVeNGyxv5ikebg": {
+        "_id": "jueVeNGyxv5ikebg",
+        "type": "ScaleValue",
+        "level": 0,
+        "title": "Control Points",
+        "hint": "Your pool of Control Points - spent on Controlled Transformation and Control gifts, and regained when you finish a Long Rest.",
+        "configuration": {
+          "identifier": "control-points",
+          "type": "number",
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "4": {
+              "value": 2
+            },
+            "6": {
+              "value": 3
+            },
+            "8": {
+              "value": 4
+            },
+            "10": {
+              "value": 5
+            }
+          },
+          "distance": {
+            "units": ""
+          }
+        },
+        "value": {}
+      },
+      "YbYblq2Ge8oiLQRD": {
+        "_id": "YbYblq2Ge8oiLQRD",
+        "type": "ScaleValue",
+        "level": 0,
+        "title": "Wild Regeneration",
+        "hint": "The hit points you regain when you use your Wild Regeneration reaction while transformed.",
+        "configuration": {
+          "identifier": "wild-regen",
+          "type": "dice",
+          "scale": {
+            "2": {
+              "number": 1,
+              "faces": 4
+            },
+            "4": {
+              "number": 1,
+              "faces": 6
+            },
+            "6": {
+              "number": 1,
+              "faces": 8
+            },
+            "8": {
+              "number": 1,
+              "faces": 10
+            },
+            "10": {
+              "number": 2,
+              "faces": 6
+            }
+          },
+          "distance": {
+            "units": ""
+          }
+        },
+        "value": {}
+      }
+    },
+    "source": {}
+  },
+  "flags": {}
+}
