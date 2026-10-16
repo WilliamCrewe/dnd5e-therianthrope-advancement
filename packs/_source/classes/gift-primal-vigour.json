@@ -2,7 +2,7 @@
   "_id": "fF69XqhgGXGKFpM2",
   "_key": "!items!fF69XqhgGXGKFpM2",
   "name": "Primal Vigour",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
   "folder": "SPaAhDRAbGB6v4o4",
   "sort": 201,
@@ -12,10 +12,6 @@
       "chat": ""
     },
     "identifier": "gift-primal-vigour",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
     "activities": {
       "kPDGE0bUwGvLQH0Q": {
@@ -93,19 +89,16 @@
           }
         }
       }
+    },
+    "gift": {
+      "side": "embrace",
+      "tier": "major",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "control-points",
+      "delta": -1
     }
   },
-  "flags": {
-    "advancement-classes": {
-      "gift": {
-        "side": "embrace",
-        "tier": "major",
-        "class": "therianthrope"
-      },
-      "usesMax": {
-        "target": "control-points",
-        "delta": -1
-      }
-    }
-  }
+  "flags": {}
 }

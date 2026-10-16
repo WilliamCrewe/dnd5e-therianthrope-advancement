@@ -643,10 +643,11 @@ for ( const g of GIFTS ) {
   const text = g.side === "embrace" && g.tier === "major"
     ? `<p>${g.text}</p><p><em>${EMBRACE_MAJOR_RIDER.trim()}</em></p>`
     : `<p>${g.text}</p>`;
-  const flags = { "advancement-classes": { gift: { side: g.side, tier: g.tier, class: "therianthrope" } } };
-  if ( g.usesDelta ) flags["advancement-classes"].usesMax = { target: "control-points", delta: g.usesDelta };
-  if ( g.keep ) flags["advancement-classes"].transform = { keep: g.keep };
-  if ( g.restRefund ) flags["advancement-classes"].restRefund = { target: "control-points", amount: g.restRefund, rest: "short" };
+  const acFlags = {};
+  if ( g.keep ) acFlags.transform = { keep: g.keep };
+  if ( g.restRefund ) acFlags.restRefund = { target: "control-points", amount: g.restRefund, rest: "short" };
+  const flags = Object.keys(acFlags).length ? { "advancement-classes": acFlags } : undefined;
+  const usesMax = g.usesDelta ? { target: "control-points", delta: g.usesDelta } : undefined;
   const activities = {};
   const effs = (g.changes ?? []).map(c => ({
     _id: effId(g.ident + c.key), name: g.name, icon: "icons/magic/death/undead-ghost-screaming-teal.webp",
@@ -680,7 +681,7 @@ for ( const g of GIFTS ) {
     act._id = actId("gift:hybrid-mastery:transform");
     activities[act._id] = act;
   }
-  items.push(cb.feat(g.name, g.ident, text, { activities, effects: effs.length ? effs : undefined, flags, featType: "supernaturalGift", subtype: "blessing", folder: F_GIFT_SIDE[g.side], sort: { minor: 100, major: 200, grand: 300 }[g.tier] + giftSortSeq[gk],
+  items.push(cb.gift(g.name, g.ident, text, { side: g.side, tier: g.tier, classIdent: "therianthrope", usesMax, activities, effects: effs.length ? effs : undefined, flags, folder: F_GIFT_SIDE[g.side], sort: { minor: 100, major: 200, grand: 300 }[g.tier] + giftSortSeq[gk],
     img: g.side === "control"
       ? "icons/magic/symbols/rune-sigil-horned-white-purple.webp"
       : "icons/magic/symbols/rune-sigil-white-pink.webp" }));

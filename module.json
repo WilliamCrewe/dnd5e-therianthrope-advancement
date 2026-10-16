@@ -72,7 +72,7 @@
         "id": "advancement-classes",
         "type": "module",
         "compatibility": {
-          "minimum": "2.0.0"
+          "minimum": "3.0.0"
         }
       }
     ]

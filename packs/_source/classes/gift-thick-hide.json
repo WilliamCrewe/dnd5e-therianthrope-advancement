@@ -2,7 +2,7 @@
   "_id": "H6PyURf0kSlL6rMR",
   "_key": "!items!H6PyURf0kSlL6rMR",
   "name": "Thick Hide",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
   "folder": "SPaAhDRAbGB6v4o4",
   "sort": 203,
@@ -12,26 +12,19 @@
       "chat": ""
     },
     "identifier": "gift-thick-hide",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
-  },
-  "flags": {
-    "advancement-classes": {
-      "gift": {
-        "side": "embrace",
-        "tier": "major",
-        "class": "therianthrope"
-      },
-      "usesMax": {
-        "target": "control-points",
-        "delta": -1
-      }
+    "activities": {},
+    "gift": {
+      "side": "embrace",
+      "tier": "major",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "control-points",
+      "delta": -1
     }
   },
+  "flags": {},
   "effects": [
     {
       "_id": "1glV7ngebWlxBLsa",

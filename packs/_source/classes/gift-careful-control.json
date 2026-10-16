@@ -2,7 +2,7 @@
   "_id": "F8zBepDAwCo1siAz",
   "_key": "!items!F8zBepDAwCo1siAz",
   "name": "Careful Control",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
   "folder": "nhvQDoLlqNGgDuZ5",
   "sort": 104,
@@ -12,20 +12,20 @@
       "chat": ""
     },
     "identifier": "gift-careful-control",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
+    "activities": {},
+    "gift": {
+      "side": "control",
+      "tier": "minor",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "",
+      "delta": 0
+    }
   },
   "flags": {
     "advancement-classes": {
-      "gift": {
-        "side": "control",
-        "tier": "minor",
-        "class": "therianthrope"
-      },
       "restRefund": {
         "target": "control-points",
         "amount": 1,

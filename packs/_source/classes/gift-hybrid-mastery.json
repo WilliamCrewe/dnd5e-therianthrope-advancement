@@ -2,7 +2,7 @@
   "_id": "BPyG7IqQUAFdozx5",
   "_key": "!items!BPyG7IqQUAFdozx5",
   "name": "Hybrid Mastery",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
   "folder": "nhvQDoLlqNGgDuZ5",
   "sort": 203,
@@ -12,10 +12,6 @@
       "chat": ""
     },
     "identifier": "gift-hybrid-mastery",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
     "activities": {
       "lMXAjLUSl8Wo5xl7": {
@@ -213,15 +209,19 @@
           "tempFormula": ""
         }
       }
+    },
+    "gift": {
+      "side": "control",
+      "tier": "major",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "",
+      "delta": 0
     }
   },
   "flags": {
     "advancement-classes": {
-      "gift": {
-        "side": "control",
-        "tier": "major",
-        "class": "therianthrope"
-      },
       "transform": {
         "keep": [
           "items"

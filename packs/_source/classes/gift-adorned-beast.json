@@ -2,7 +2,7 @@
   "_id": "oZxXBcX7AZFpyR24",
   "_key": "!items!oZxXBcX7AZFpyR24",
   "name": "Adorned Beast",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
   "folder": "nhvQDoLlqNGgDuZ5",
   "sort": 103,
@@ -12,20 +12,20 @@
       "chat": ""
     },
     "identifier": "gift-adorned-beast",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
+    "activities": {},
+    "gift": {
+      "side": "control",
+      "tier": "minor",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "",
+      "delta": 0
+    }
   },
   "flags": {
     "advancement-classes": {
-      "gift": {
-        "side": "control",
-        "tier": "minor",
-        "class": "therianthrope"
-      },
       "transform": {
         "keep": [
           "items"

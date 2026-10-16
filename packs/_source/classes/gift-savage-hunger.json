@@ -2,7 +2,7 @@
   "_id": "1xmeGIMHrzjFI66d",
   "_key": "!items!1xmeGIMHrzjFI66d",
   "name": "Savage Hunger",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
   "folder": "SPaAhDRAbGB6v4o4",
   "sort": 102,
@@ -12,24 +12,17 @@
       "chat": ""
     },
     "identifier": "gift-savage-hunger",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
-  },
-  "flags": {
-    "advancement-classes": {
-      "gift": {
-        "side": "embrace",
-        "tier": "minor",
-        "class": "therianthrope"
-      },
-      "usesMax": {
-        "target": "control-points",
-        "delta": -1
-      }
+    "activities": {},
+    "gift": {
+      "side": "embrace",
+      "tier": "minor",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "control-points",
+      "delta": -1
     }
-  }
+  },
+  "flags": {}
 }

@@ -2,7 +2,7 @@
   "_id": "rSZoWU87a2wpU6dT",
   "_key": "!items!rSZoWU87a2wpU6dT",
   "name": "Ravenous Regeneration",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
   "folder": "SPaAhDRAbGB6v4o4",
   "sort": 103,
@@ -12,24 +12,17 @@
       "chat": ""
     },
     "identifier": "gift-ravenous-regeneration",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
-  },
-  "flags": {
-    "advancement-classes": {
-      "gift": {
-        "side": "embrace",
-        "tier": "minor",
-        "class": "therianthrope"
-      },
-      "usesMax": {
-        "target": "control-points",
-        "delta": -1
-      }
+    "activities": {},
+    "gift": {
+      "side": "embrace",
+      "tier": "minor",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "control-points",
+      "delta": -1
     }
-  }
+  },
+  "flags": {}
 }

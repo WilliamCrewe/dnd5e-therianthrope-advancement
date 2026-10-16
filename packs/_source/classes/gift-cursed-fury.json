@@ -2,7 +2,7 @@
   "_id": "EwcHnHbNCfl0zNN4",
   "_key": "!items!EwcHnHbNCfl0zNN4",
   "name": "Cursed Fury",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
   "folder": "SPaAhDRAbGB6v4o4",
   "sort": 202,
@@ -12,26 +12,19 @@
       "chat": ""
     },
     "identifier": "gift-cursed-fury",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
-  },
-  "flags": {
-    "advancement-classes": {
-      "gift": {
-        "side": "embrace",
-        "tier": "major",
-        "class": "therianthrope"
-      },
-      "usesMax": {
-        "target": "control-points",
-        "delta": -1
-      }
+    "activities": {},
+    "gift": {
+      "side": "embrace",
+      "tier": "major",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "control-points",
+      "delta": -1
     }
   },
+  "flags": {},
   "effects": [
     {
       "_id": "pmcqg4eNyM1AhWvS",

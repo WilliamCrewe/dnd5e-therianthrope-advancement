@@ -2,7 +2,7 @@
   "_id": "qSNoOqwNzwtbFZf6",
   "_key": "!items!qSNoOqwNzwtbFZf6",
   "name": "Extended Form",
-  "type": "feat",
+  "type": "advancement-classes.advancement-gift",
   "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
   "folder": "nhvQDoLlqNGgDuZ5",
   "sort": 102,
@@ -12,20 +12,17 @@
       "chat": ""
     },
     "identifier": "gift-extended-form",
-    "type": {
-      "value": "supernaturalGift",
-      "subtype": "blessing"
-    },
     "source": {},
-    "activities": {}
-  },
-  "flags": {
-    "advancement-classes": {
-      "gift": {
-        "side": "control",
-        "tier": "minor",
-        "class": "therianthrope"
-      }
+    "activities": {},
+    "gift": {
+      "side": "control",
+      "tier": "minor",
+      "class": "therianthrope"
+    },
+    "usesMax": {
+      "target": "",
+      "delta": 0
     }
-  }
+  },
+  "flags": {}
 }
